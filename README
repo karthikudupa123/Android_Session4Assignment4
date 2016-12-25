@@ -1,0 +1,9 @@
+Calling one constructor from other is called constructor chaining in Java
+
+We will be using this keyword and super keyword in calling a constructor. this can be used to call a constructor within the same class whereas super can be used to call the constructor of the Parent class.
+
+There are two types of constructors
+1. Default
+2. Parameterized
+
+Here Constructor chaining happens because this("") in Child() calls Child(String name) which inturn calls super(name) i.e Parent(String name).
